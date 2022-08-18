@@ -1,0 +1,61 @@
+.img-fluid{
+
+           margin-top: 2em;
+           width: 1674px;
+           height: 569px;
+
+        }
+        body{
+         background-color:white;
+         color:#575774;
+         text-align: justify;
+         font-family: "Manrope"
+        }
+
+        h1{
+            text-align: -webkit-center;
+    		padding-top: 3em;
+    		padding-bottom: 40px
+        }
+        .flex{
+        	display: flex;
+        	flex-direction: row;
+        	gap: 40px;
+        }
+        .first{
+        	background-color: #78678a;
+        }
+        a:hover{
+        	background-color: yellow;
+        	border-radius: 5px;
+        }
+        hr{
+        	background-color: yellow;
+        	color: yellow;
+        }
+  		@media (max-width:1000px) {
+  			.flex{
+	        	flex-direction: row;
+	        	gap: 40px;
+	        }
+	        .img-fluid{
+
+	           margin-top: 2em;
+	           width: 1674px;
+	           height: 569px;
+
+        	}
+  		}
+
+@media (max-width:600px) {
+    .flex{
+        flex-direction: column;
+	    gap: 40px;
+    }
+    .img-fluid{
+        margin-top: 2em;
+	    width: 1674px;
+	    height: 569px;
+
+    }
+}
