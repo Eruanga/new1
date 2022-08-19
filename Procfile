@@ -1,1 +1,1 @@
-web: gunicorn EllaBesiru.wsgi --log-file -
+web: sh setup.sh && streamlit run app.py
